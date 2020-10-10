@@ -1,0 +1,170 @@
+
+/******************************
+   Conversion Page
+******************************/
+.quote-conversion .qa-heading {
+    text-transform: uppercase;
+    font-family: "open_sansbold", sans-serif;
+}
+
+.quote-conversion h5 {
+    font-family: "open_sanssemibold", sans-serif;
+    font-size: 16px;
+}
+
+.quote-conversion .progress {
+    height: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+    .quote-conversion .progress .progress-bar {
+        background-color: #666666;
+    }
+
+.quote-conversion .actions a {
+    color: #666666;
+    font-family: "open_sanssemibold", sans-serif;
+}
+
+    .quote-conversion .actions a:hover {
+        opacity: 0.8;
+    }
+
+.quote-conversion .form-group {
+    margin-bottom: 30px;
+}
+
+.icon-upload-orng {
+    background-position: -1066px -122px;
+}
+
+.hs-note {
+    padding: 15px 10px;
+    background-color: #ffebd3;
+    margin-bottom: 15px;
+    border: 1px solid #f08200;
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .hs-note li {
+        margin-bottom: 10px;
+    }
+
+    .ship-info-modify-cont {
+        margin-left: 0 !important;
+    }
+    .ship-info-modify-cont .pd-l0 {
+            padding-bottom: 10px;
+    }
+    .ship-info-modify-cont label {
+        padding-left: 0;
+    }
+}
+
+.hs-note.dis-block {
+    display: block !important;
+}
+
+.hs-note.pay-box .pay-notice {
+    padding-left: 40px;
+}
+
+.hs-note .upload-docs {
+    margin-left: -5px;
+}
+
+    .hs-note .upload-docs .attachment {
+        position: static;
+        margin-left: -10px;
+        text-transform: capitalize;
+    }
+
+        .hs-note .upload-docs .attachment,
+        .hs-note .upload-docs .attachment .browse-attach,
+        .hs-note .upload-docs .attachment .browse-attach input[type="file"] {
+            width: 200px;
+        }
+
+.pay-icon.tick-icon {
+    height: 26px;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    margin-right: 5px;
+    float: left;
+}
+
+.spcl-inst {
+    margin-bottom: 20px;
+}
+
+    .spcl-inst .spcl-inst-hdg {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-family: "open_sanssemibold", sans-serif;
+    }
+
+.address-panel {
+    cursor: pointer;
+}
+
+    .address-panel.selected {
+        background-color: #ffe9d0;
+        border: 1px solid #fad4a8;
+        position: relative;
+    }
+
+        .address-panel.selected h5 {
+            margin-left: 25px;
+        }
+
+        .address-panel.selected:before {
+            font-family: FontAwesome, sans-serif;
+            content: "\f058";
+            font-size: 22px;
+            color: #f08200;
+            position: absolute;
+            left: 5px;
+            top: 10px;
+        }
+
+    .address-panel .panel-body {
+        padding: 15px 15px 15px 30px;
+    }
+
+.hs-form-group {
+    width: 60%;
+    display: inline-block;
+}
+
+.icon-group {
+    width: 35%;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.hs-origin-dest {
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+    .hs-origin-dest .orig-dest-content.border-right-gray {
+        border-right: 1px solid #ddd;
+    }
+
+@media screen and (max-width: 767px) {
+    .hs-origin-dest .orig-dest-content.border-right-gray {
+        border: none;
+        margin-bottom: 25px;
+    }
+}
+
+.hs-origin-dest .org-dest-name {
+    text-transform: uppercase;
+    font-family: "open_sanssemibold", sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
